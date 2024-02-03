@@ -13,17 +13,20 @@ function Login(props){
     const navigate = useNavigate()
 
     const onButtonClick = () => {
-        if(""==username){
+        setUserError("")
+        setPasswordError("")
+
+        if(""===username){
             setUserError("Username cannot be empty")
             return
         }
 
-        if(!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(username)){
+        if(username.length<8){
             setUserError("Invalid username")
             return
         }
 
-        if(""==password){
+        if(""===password){
             setPasswordError("Password cannot be empty")
             return
         }
@@ -32,11 +35,37 @@ function Login(props){
             setPasswordError("Password must be at least 8 characters")
             return
         }
+
+        handleLogin()
     }
 
     const handleLogin = () => {
-        const userData = JSON.parse(localStorage.getItem(username));
+        let userData
+        try{
+            userData = JSON.parse(localStorage.getItem(username));
+        }catch(e){
+            console.error("Error parsing JSON", e)
+        }
 
+        if(userData && userData.password === password){
+            setLoggedIn(true)
+            setUser(username)
+            navigate("/")
+        }else if(!userData){
+            if(window.confirm("User does not exist. Would you like to create a new account?")){
+                const newUser = {
+                    username,
+                    password,
+                    highScore: 0 // Starting high score
+                };
+                localStorage.setItem(username, JSON.stringify(newUser))
+                setLoggedIn(true)
+                setUser(username)
+                navigate("/")
+            }
+        }else{
+            alert("Password is incorrect")
+        }
     }
 
     return(

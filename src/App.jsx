@@ -1,25 +1,23 @@
-import { useState } from 'react'
-
+import { useEffect, useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './Home'
+import Login from './Login'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [loggedIn, setLoggedIn] = useState(false)
+  const [username, setUser] = useState("")
 
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="Main_App">
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home username={username} logIn={loggedIn} setLoggedIn={setLoggedIn}/>}/>
+          <Route path="/login" element={<Login setLoggedIn={setLoggedIn} setUser={setUser}/>}/>
+        </Routes>
+      
+      </BrowserRouter>
+    </div>
   )
 }
 

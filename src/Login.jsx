@@ -9,6 +9,7 @@ function Login(props){
     const [password, setPassword] = useState("")
     const [userError, setUserError] = useState("")
     const [passwordError, setPasswordError] = useState("")
+    const [loggedIn, setLoggedIn] = useState(false)
 
     const navigate = useNavigate()
 
@@ -50,6 +51,7 @@ function Login(props){
         if(userData && userData.password === password){
             setLoggedIn(true)
             setUser(username)
+            console.log("Logged in")
             navigate("/")
         }else if(!userData){
             if(window.confirm("User does not exist. Would you like to create a new account?")){
@@ -61,6 +63,7 @@ function Login(props){
                 localStorage.setItem(username, JSON.stringify(newUser))
                 setLoggedIn(true)
                 setUser(username)
+                console.log("Logged in")
                 navigate("/")
             }
         }else{

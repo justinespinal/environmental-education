@@ -13,6 +13,29 @@ function Login(props){
     const navigate = useNavigate()
 
     const onButtonClick = () => {
+        if(""==username){
+            setUserError("Username cannot be empty")
+            return
+        }
+
+        if(!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(username)){
+            setUserError("Invalid username")
+            return
+        }
+
+        if(""==password){
+            setPasswordError("Password cannot be empty")
+            return
+        }
+
+        if(password.length<8){
+            setPasswordError("Password must be at least 8 characters")
+            return
+        }
+    }
+
+    const handleLogin = () => {
+        const userData = JSON.parse(localStorage.getItem(username));
 
     }
 
@@ -21,9 +44,10 @@ function Login(props){
                                         backgroundRepeat: 'no-repeat',
                                         backgroundSize: 'cover'
         }}>
-            <h1>Login</h1>
             <br/>
-            <div>
+            <div className="loginHolder">
+                <h1>Login</h1>
+                <br/>
                 <div className="inputContainer">
                     <input
                         value = {username}

@@ -9,6 +9,22 @@
 .loginPage{
   height: 100vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginHolder{
+  font: 'Inter', sans-serif;
+  background-color: white;
+  border-radius: 10%;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .inputContainer{
@@ -29,4 +45,7 @@
   border-radius: 10%;
   font-size: 20px;
   padding: 10px;
+  border-color: #7EE28E;
+  color: white;
+  background-color: #7EE28E;
 }

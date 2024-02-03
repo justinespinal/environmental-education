@@ -1,12 +1,11 @@
-
-.inputB{
+.inputB {
   background-color: lightgreen;
   border-radius: 10%;
   padding: 10px;
   font-size: 30px;
 }
 
-.loginPage{
+.loginPage {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -14,8 +13,8 @@
   justify-content: center;
 }
 
-.loginHolder{
-  font: 'Inter', sans-serif;
+.loginHolder {
+  font: "Inter", sans-serif;
   background-color: white;
   border-radius: 10%;
   padding: 20px;
@@ -27,25 +26,25 @@
   align-items: center;
 }
 
-.inputContainer{
+.inputContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 
-.inputBox{
+.inputBox {
   border-radius: 5%;
   padding: 10px;
   border-width: 1px;
   width: 300px;
 }
 
-.inputButton{
+.inputButton {
   border-radius: 10%;
   font-size: 20px;
   padding: 10px;
-  border-color: #7EE28E;
+  border-color: #7ee28e;
   color: white;
-  background-color: #7EE28E;
+  background-color: #7ee28e;
 }

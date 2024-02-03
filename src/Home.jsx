@@ -16,21 +16,26 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
   return (
     <>
       <div
+        className="homeDiv"
         style={{
           backgroundImage: `url("../img/green.svg")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          height: "80vh",
         }}
       >
-        <h1>Welcome!</h1>
+        <div className="greenText">
+          <h1>Unleash Your Eco-Wits</h1>
+          <h3>Play Your Way to Greener World</h3>
+        </div>
         <div className="buttonContainer">
           <input
+            style={({ color: "black" }, { backgroundColor: "white" })}
             className="inputB"
             type="button"
             onClick={onButtonClick}
-            value={loggedIn ? "Log out" : "Log in"}
+            value={loggedIn ? "Log out" : "Get Started"}
           />
-          {loggedIn ? <div>You are logged in!</div> : <div />}
         </div>
       </div>
     </>

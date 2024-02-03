@@ -1,8 +1,10 @@
 .inputB {
   background-color: lightgreen;
-  border-radius: 10%;
+  border-radius: 10px;
+  font-weight: bold;
   padding: 10px;
   font-size: 30px;
+  margin-top: 50px;
 }
 
 .loginPage {
@@ -67,4 +69,20 @@
 .passInput {
   background: url(../img/lock.svg) no-repeat scroll 12px 12px;
   padding-left: 40px;
+}
+
+.homeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.greenText {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
 }

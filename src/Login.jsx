@@ -99,6 +99,7 @@ function Login({ setLoggedIn, setUser }) {
         <div className="inputContainer">
           <input
             value={password}
+            type="password"
             placeholder="Enter your password"
             onChange={(ev) => setPassword(ev.target.value)}
             className="inputBox passInput"

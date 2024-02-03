@@ -84,14 +84,14 @@ function Login({ setLoggedIn, setUser }) {
     >
       <br />
       <div className="loginHolder">
-        <h1>Login</h1>
+        <h1 style={{ marginBottom: "75px" }}>Login</h1>
         <br />
         <div className="inputContainer">
           <input
             value={username}
             placeholder="Enter your username"
             onChange={(ev) => setUsernameLocal(ev.target.value)}
-            className={"inputBox"}
+            className={"inputBox userInput"}
           />
           <label className="error">{userError}</label>
         </div>
@@ -101,13 +101,13 @@ function Login({ setLoggedIn, setUser }) {
             value={password}
             placeholder="Enter your password"
             onChange={(ev) => setPassword(ev.target.value)}
-            className="inputBox"
+            className="inputBox passInput"
           />
           <label className="error">{passwordError}</label>
         </div>
 
         <br />
-        <div>
+        <div style={{ marginTop: "75px" }}>
           <input
             className="inputButton"
             type="button"

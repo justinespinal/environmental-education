@@ -14,16 +14,17 @@
 }
 
 .loginHolder {
+  box-shadow: 0px 0px 4px 7px rgba(30, 30, 30, 0.25);
   font: "Inter", sans-serif;
   background-color: white;
+  height: 600px;
+  width: 400px;
   border-radius: 10%;
-  padding: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
   opacity: 0.8;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .inputContainer {
@@ -34,17 +35,28 @@
 }
 
 .inputBox {
-  border-radius: 5%;
-  padding: 10px;
+  border-radius: 14px;
+  padding: 15px;
   border-width: 1px;
   width: 300px;
 }
 
 .inputButton {
-  border-radius: 10%;
+  border-radius: 14px;
   font-size: 20px;
   padding: 10px;
+  width: 300px;
   border-color: #7ee28e;
   color: white;
   background-color: #7ee28e;
+}
+
+.userInput {
+  background: url(../img/profile.svg) no-repeat scroll 12px 12px;
+  padding-left: 40px;
+}
+
+.passInput {
+  background: url(../img/lock.svg) no-repeat scroll 12px 12px;
+  padding-left: 40px;
 }

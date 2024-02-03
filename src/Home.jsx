@@ -15,7 +15,13 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
 
   return (
     <>
-      <div>
+      <div
+        style={{
+          backgroundImage: `url("../img/green.svg")`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
         <h1>Welcome!</h1>
         <div className="buttonContainer">
           <input

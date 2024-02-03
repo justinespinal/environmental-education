@@ -94,6 +94,7 @@ function Login(props){
                         onChange={ev => setPassword(ev.target.value)}
                         className="inputBox"
                     />
+                    <label className="error">{passwordError}</label>
                 </div>
 
                 <br/>

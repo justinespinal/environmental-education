@@ -7,6 +7,7 @@ import NavBar from "../components/NavBar";
 import quizQuestions from "./quizQuestions.json";
 import Game from "../components/Game";
 import Leaderboard from "../components/Leaderboard";
+import green from "../img/green.svg";
 
 const Home = ({ username, loggedIn, setLoggedIn }) => {
   const [userData, setUserData] = useState(null);
@@ -69,7 +70,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       <div
         className="homeDiv"
         style={{
-          backgroundImage: `url("../img/green.svg")`,
+          backgroundImage: `url(${green})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           height: "100vh",

@@ -219,3 +219,27 @@ h1 {
 .highScoreIcon {
   width: 7%;
 }
+
+footer {
+  background: linear-gradient(
+    0deg,
+    #79c585 20%,
+    #79c585 40%,
+    rgba(121, 197, 133, 0.48) 70.51%,
+    rgba(121, 197, 133, 0) 100%
+  );
+  height: 50vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 3%;
+  font-size: 1.3em;
+}
+
+.footer-1 {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}

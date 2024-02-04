@@ -181,6 +181,13 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       ) : (
         <div></div>
       )}
+      <footer>
+        <div className="footer-1">
+          <img src="../img/logo.svg" alt="" />
+          <p>GreenIQ</p>
+        </div>
+        <p>Made by Justin Espinal, Ye Htut Maung, Steven Uy, Dennis Do</p>
+      </footer>
     </>
   );
 };

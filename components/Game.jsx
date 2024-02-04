@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import "./Game.css";
 
 const Game = ({ questions, updateScores }) => {
-  const [currentQuestionIndex, setQuestionIndex] = useState(0);
+  const [currentQuestionIndex, setQuestionIndex] = useState(
+    Math.floor(Math.random() * questions.length - 1)
+  );
   const [currentScore, setScore] = useState(0);
+
+  const colors = ["red", "blue", "green", "yellow"];
 
   const currentQuestion = questions[currentQuestionIndex];
 
@@ -18,11 +22,7 @@ const Game = ({ questions, updateScores }) => {
       updateScores(newScore);
     }
 
-    if (currentQuestionIndex < questions.length - 1) {
-      setQuestionIndex(currentQuestionIndex + 1);
-    } else {
-      setQuestionIndex(0);
-    }
+    setQuestionIndex(Math.floor(Math.random() * questions.length - 1));
   };
 
   return (
@@ -30,11 +30,12 @@ const Game = ({ questions, updateScores }) => {
       <div className="quiz-container">
         <h1>{currentQuestion.question}</h1>
         <div className="choice-grid">
-          {currentQuestion.choices.map((choice) => (
+          {currentQuestion.choices.map((choice, index) => (
             <button
               key={choice}
               onClick={() => handleAnswer(choice)}
               className="choice-btn"
+              style={{ border: "2px solid " + colors[index % 4] }}
             >
               {choice}
             </button>

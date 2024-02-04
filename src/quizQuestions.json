@@ -152,5 +152,731 @@
     "question": "What term describes the variety of habitats, species, and genes in an ecosystem?",
     "choices": ["Ecology", "Biodiversity", "Ecosystem", "Biome"],
     "answer": "Biodiversity"
+  },
+  {
+    "id": 20,
+    "question": "Which gas is primarily responsible for acid rain?",
+    "choices": ["Oxygen", "Carbon Monoxide", "Sulfur Dioxide", "Nitrogen"],
+    "answer": "Sulfur Dioxide"
+  },
+  {
+    "id": 21,
+    "question": "What is the term for the cultivation of aquatic plants and animals for food?",
+    "choices": ["Aquaculture", "Hydroponics", "Mariculture", "Fishery"],
+    "answer": "Aquaculture"
+  },
+  {
+    "id": 22,
+    "question": "What is the main cause of ocean acidification?",
+    "choices": [
+      "Oil Spills",
+      "Increased Salinity",
+      "Absorption of Carbon Dioxide",
+      "Overfishing"
+    ],
+    "answer": "Absorption of Carbon Dioxide"
+  },
+  {
+    "id": 23,
+    "question": "What process involves the conversion of waste into usable energy?",
+    "choices": ["Recycling", "Composting", "Waste-to-Energy", "Landfilling"],
+    "answer": "Waste-to-Energy"
+  },
+  {
+    "id": 24,
+    "question": "What type of forest is characterized by high rainfall and year-round warmth?",
+    "choices": [
+      "Temperate Forest",
+      "Rainforest",
+      "Boreal Forest",
+      "Deciduous Forest"
+    ],
+    "answer": "Rainforest"
+  },
+  {
+    "id": 25,
+    "question": "What is the primary cause of soil erosion?",
+    "choices": [
+      "Deforestation",
+      "Pesticide Use",
+      "Urbanization",
+      "Overgrazing"
+    ],
+    "answer": "Deforestation"
+  },
+  {
+    "id": 26,
+    "question": "Which layer of soil is most fertile and rich in organic matter?",
+    "choices": ["Bedrock", "Subsoil", "Topsoil", "Parent Material"],
+    "answer": "Topsoil"
+  },
+  {
+    "id": 27,
+    "question": "What term refers to the maximum number of individuals an environment can support without degradation?",
+    "choices": [
+      "Carrying Capacity",
+      "Population Density",
+      "Ecological Footprint",
+      "Biotic Potential"
+    ],
+    "answer": "Carrying Capacity"
+  },
+  {
+    "id": 28,
+    "question": "What renewable energy source is derived from organic materials like plant and animal waste?",
+    "choices": ["Solar Energy", "Biomass Energy", "Hydropower", "Wind Energy"],
+    "answer": "Biomass Energy"
+  },
+  {
+    "id": 29,
+    "question": "What is the process by which water vapor turns into liquid water?",
+    "choices": [
+      "Evaporation",
+      "Condensation",
+      "Precipitation",
+      "Transpiration"
+    ],
+    "answer": "Condensation"
+  },
+  {
+    "id": 30,
+    "question": "What phenomenon is causing the rise in sea levels?",
+    "choices": [
+      "Tectonic Activity",
+      "Global Warming",
+      "Lunar Gravitational Pull",
+      "Ocean Currents"
+    ],
+    "answer": "Global Warming"
+  },
+  {
+    "id": 31,
+    "question": "Which continent is most affected by desertification?",
+    "choices": ["Asia", "Africa", "Australia", "North America"],
+    "answer": "Africa"
+  },
+  {
+    "id": 32,
+    "question": "What is the main environmental benefit of reforestation?",
+    "choices": [
+      "Increasing Agricultural Land",
+      "Reducing Soil Erosion",
+      "Improving Air Quality",
+      "Enhancing Aesthetic Value"
+    ],
+    "answer": "Reducing Soil Erosion"
+  },
+  {
+    "id": 33,
+    "question": "What is the term for a community of organisms and their physical environment interacting together?",
+    "choices": ["Biome", "Ecosystem", "Habitat", "Biosphere"],
+    "answer": "Ecosystem"
+  },
+  {
+    "id": 34,
+    "question": "Which type of pollution is caused by light being scattered and reflected?",
+    "choices": [
+      "Air Pollution",
+      "Noise Pollution",
+      "Water Pollution",
+      "Light Pollution"
+    ],
+    "answer": "Light Pollution"
+  },
+  {
+    "id": 35,
+    "question": "What process is used to remove salt from seawater to make it suitable for drinking and irrigation?",
+    "choices": ["Filtration", "Desalination", "Chlorination", "Distillation"],
+    "answer": "Desalination"
+  },
+  {
+    "id": 36,
+    "question": "Which term describes the loss of water from the soil due to evaporation and transpiration by plants?",
+    "choices": ["Percolation", "Infiltration", "Runoff", "Evapotranspiration"],
+    "answer": "Evapotranspiration"
+  },
+  {
+    "id": 37,
+    "question": "What is the primary method for sustainable waste management?",
+    "choices": ["Incineration", "Landfilling", "Recycling", "Composting"],
+    "answer": "Recycling"
+  },
+  {
+    "id": 38,
+    "question": "What natural phenomenon is used in generating tidal energy?",
+    "choices": ["Sun's Heat", "Wind", "Ocean Tides", "River Currents"],
+    "answer": "Ocean Tides"
+  },
+  {
+    "id": 39,
+    "question": "What is the study of how organisms interact with each other and their environment?",
+    "choices": ["Geology", "Meteorology", "Ecology", "Botany"],
+    "answer": "Ecology"
+  },
+  {
+    "id": 40,
+    "question": "Which renewable energy source primarily relies on flowing water?",
+    "choices": ["Solar Energy", "Wind Energy", "Hydropower", "Biomass Energy"],
+    "answer": "Hydropower"
+  },
+  {
+    "id": 41,
+    "question": "What term describes the gradual increase in the Earth's temperature?",
+    "choices": [
+      "Global Cooling",
+      "Global Warming",
+      "Climate Change",
+      "Seasonal Shift"
+    ],
+    "answer": "Global Warming"
+  },
+  {
+    "id": 42,
+    "question": "What is the primary greenhouse gas emitted through human activities?",
+    "choices": ["Methane", "Nitrous Oxide", "Carbon Dioxide", "Ozone"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "id": 43,
+    "question": "What is the main cause of rising sea levels?",
+    "choices": [
+      "Glacial Melting",
+      "Underwater Volcanoes",
+      "Coral Reef Decay",
+      "Increased Sedimentation"
+    ],
+    "answer": "Glacial Melting"
+  },
+  {
+    "id": 44,
+    "question": "What type of energy is harnessed from the sun's rays?",
+    "choices": [
+      "Thermal Energy",
+      "Geothermal Energy",
+      "Solar Energy",
+      "Nuclear Energy"
+    ],
+    "answer": "Solar Energy"
+  },
+  {
+    "id": 45,
+    "question": "What process involves planting trees to restore a forest?",
+    "choices": [
+      "Afforestation",
+      "Deforestation",
+      "Reforestation",
+      "Urbanization"
+    ],
+    "answer": "Reforestation"
+  },
+  {
+    "id": 46,
+    "question": "Which layer of Earth's atmosphere is closest to the surface?",
+    "choices": ["Stratosphere", "Troposphere", "Mesosphere", "Exosphere"],
+    "answer": "Troposphere"
+  },
+  {
+    "id": 47,
+    "question": "What phenomenon is characterized by the spinning of the Earth on its axis?",
+    "choices": ["Orbit", "Revolution", "Rotation", "Eclipse"],
+    "answer": "Rotation"
+  },
+  {
+    "id": 48,
+    "question": "What is the primary cause of desertification?",
+    "choices": [
+      "Heavy Rainfall",
+      "Forest Fires",
+      "Overgrazing",
+      "Frequent Flooding"
+    ],
+    "answer": "Overgrazing"
+  },
+  {
+    "id": 49,
+    "question": "Which gas is most responsible for trapping heat in the atmosphere?",
+    "choices": ["Carbon Dioxide", "Methane", "Oxygen", "Nitrogen"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "id": 50,
+    "question": "What term refers to the variety of different types of organisms in a habitat or region?",
+    "choices": [
+      "Ecosystem Diversity",
+      "Species Diversity",
+      "Genetic Diversity",
+      "Biodiversity"
+    ],
+    "answer": "Biodiversity"
+  },
+  {
+    "id": 51,
+    "question": "What type of pollution occurs when harmful substances enter the soil?",
+    "choices": [
+      "Air Pollution",
+      "Soil Pollution",
+      "Water Pollution",
+      "Noise Pollution"
+    ],
+    "answer": "Soil Pollution"
+  },
+  {
+    "id": 52,
+    "question": "Which gas is a major component of smog?",
+    "choices": ["Oxygen", "Carbon Monoxide", "Nitrogen Dioxide", "Methane"],
+    "answer": "Nitrogen Dioxide"
+  },
+  {
+    "id": 53,
+    "question": "What is the main driver of ocean currents?",
+    "choices": [
+      "Marine Life",
+      "Moon's Gravitational Pull",
+      "Wind Patterns",
+      "Thermal Energy from the Sun"
+    ],
+    "answer": "Wind Patterns"
+  },
+  {
+    "id": 54,
+    "question": "What process is crucial for the water cycle, involving the transition from liquid to gas?",
+    "choices": ["Condensation", "Evaporation", "Precipitation", "Infiltration"],
+    "answer": "Evaporation"
+  },
+  {
+    "id": 55,
+    "question": "What is the primary method of reducing greenhouse gases in the atmosphere?",
+    "choices": [
+      "Fossil Fuel Consumption",
+      "Deforestation",
+      "Carbon Sequestration",
+      "Urbanization"
+    ],
+    "answer": "Carbon Sequestration"
+  },
+  {
+    "id": 56,
+    "question": "Which phenomenon is directly related to the depletion of fish stocks in the ocean?",
+    "choices": [
+      "Global Warming",
+      "Coral Bleaching",
+      "Overfishing",
+      "Marine Pollution"
+    ],
+    "answer": "Overfishing"
+  },
+  {
+    "id": 57,
+    "question": "What term is used to describe the breaking down of organic material in the absence of oxygen?",
+    "choices": [
+      "Composting",
+      "Fermentation",
+      "Anaerobic Digestion",
+      "Photosynthesis"
+    ],
+    "answer": "Anaerobic Digestion"
+  },
+  {
+    "id": 58,
+    "question": "Which energy source relies on the heat generated by the natural decay of radioactive materials?",
+    "choices": [
+      "Solar Energy",
+      "Wind Energy",
+      "Geothermal Energy",
+      "Hydropower"
+    ],
+    "answer": "Geothermal Energy"
+  },
+  {
+    "id": 59,
+    "question": "What is the main effect of thermal pollution on aquatic ecosystems?",
+    "choices": [
+      "Decreased Oxygen Levels",
+      "Increased Salinity",
+      "Algal Blooms",
+      "Acidification"
+    ],
+    "answer": "Decreased Oxygen Levels"
+  },
+  {
+    "id": 60,
+    "question": "What is the primary cause of coral bleaching?",
+    "choices": [
+      "Overfishing",
+      "Oil Spills",
+      "Increased Sea Temperature",
+      "Plastic Pollution"
+    ],
+    "answer": "Increased Sea Temperature"
+  },
+  {
+    "id": 61,
+    "question": "What term describes the change in the statistical distribution of weather patterns over periods of time?",
+    "choices": [
+      "Weather Fluctuation",
+      "Climate Change",
+      "Global Warming",
+      "Seasonal Variation"
+    ],
+    "answer": "Climate Change"
+  },
+  {
+    "id": 62,
+    "question": "What is the process of water movement through a plant and its evaporation from aerial parts?",
+    "choices": [
+      "Transpiration",
+      "Respiration",
+      "Condensation",
+      "Photosynthesis"
+    ],
+    "answer": "Transpiration"
+  },
+  {
+    "id": 63,
+    "question": "Which gas is used as a reference to measure the global warming potential of other greenhouse gases?",
+    "choices": ["Carbon Dioxide", "Methane", "Nitrous Oxide", "Ozone"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "id": 64,
+    "question": "What type of energy production relies on harnessing wind power using turbines?",
+    "choices": ["Solar Energy", "Wind Energy", "Hydropower", "Nuclear Energy"],
+    "answer": "Wind Energy"
+  },
+  {
+    "id": 65,
+    "question": "Which layer of the earth is composed of tectonic plates?",
+    "choices": ["Crust", "Mantle", "Core", "Lithosphere"],
+    "answer": "Lithosphere"
+  },
+  {
+    "id": 66,
+    "question": "What phenomenon results in the reduction of land's ability to support life, often due to human activity?",
+    "choices": [
+      "Erosion",
+      "Land Degradation",
+      "Desertification",
+      "Deforestation"
+    ],
+    "answer": "Land Degradation"
+  },
+  {
+    "id": 67,
+    "question": "What is the main environmental impact of using fossil fuels?",
+    "choices": [
+      "Biodiversity Loss",
+      "Air Pollution",
+      "Soil Fertility Increase",
+      "Water Conservation"
+    ],
+    "answer": "Air Pollution"
+  },
+  {
+    "id": 68,
+    "question": "Which type of renewable energy is obtained from the movement of water, such as in rivers or tides?",
+    "choices": ["Solar Energy", "Wind Energy", "Hydropower", "Biomass Energy"],
+    "answer": "Hydropower"
+  },
+  {
+    "id": 69,
+    "question": "What is the term for the layer of gases that surrounds the Earth?",
+    "choices": ["Biosphere", "Atmosphere", "Hydrosphere", "Lithosphere"],
+    "answer": "Atmosphere"
+  },
+  {
+    "id": 70,
+    "question": "What process removes carbon dioxide from the atmosphere and stores it in plants and soil?",
+    "choices": [
+      "Photosynthesis",
+      "Carbon Sequestration",
+      "Respiration",
+      "Transpiration"
+    ],
+    "answer": "Carbon Sequestration"
+  },
+  {
+    "id": 71,
+    "question": "What is the primary driver of the greenhouse effect?",
+    "choices": [
+      "Solar Radiation",
+      "Greenhouse Gases",
+      "Methane Emissions",
+      "Ozone Depletion"
+    ],
+    "answer": "Greenhouse Gases"
+  },
+  {
+    "id": 72,
+    "question": "What term describes the practice of growing crops in succession to maintain soil health?",
+    "choices": ["Monoculture", "Crop Rotation", "Hydroponics", "Agroforestry"],
+    "answer": "Crop Rotation"
+  },
+  {
+    "id": 73,
+    "question": "Which phenomenon refers to the long-term transfer of water from the oceans to the land?",
+    "choices": [
+      "Evaporation",
+      "Precipitation",
+      "Condensation",
+      "Hydrologic Cycle"
+    ],
+    "answer": "Hydrologic Cycle"
+  },
+  {
+    "id": 74,
+    "question": "What type of pollution results from excessive nutrient runoff into water bodies?",
+    "choices": [
+      "Plastic Pollution",
+      "Air Pollution",
+      "Eutrophication",
+      "Thermal Pollution"
+    ],
+    "answer": "Eutrophication"
+  },
+  {
+    "id": 75,
+    "question": "What term is used for a species that is not native to a specific location and has a tendency to spread?",
+    "choices": [
+      "Endemic Species",
+      "Keystone Species",
+      "Invasive Species",
+      "Indigenous Species"
+    ],
+    "answer": "Invasive Species"
+  },
+  {
+    "id": 76,
+    "question": "Which gas contributes to both smog and acid rain?",
+    "choices": [
+      "Carbon Monoxide",
+      "Nitrogen Oxide",
+      "Sulfur Dioxide",
+      "Methane"
+    ],
+    "answer": "Sulfur Dioxide"
+  },
+  {
+    "id": 77,
+    "question": "What term describes the practice of managing natural resources to meet current and future human needs?",
+    "choices": [
+      "Conservation",
+      "Sustainability",
+      "Urbanization",
+      "Deforestation"
+    ],
+    "answer": "Sustainability"
+  },
+  {
+    "id": 78,
+    "question": "What phenomenon is marked by a significant reduction in sea ice due to climate change?",
+    "choices": [
+      "El Niño",
+      "Polar Vortex",
+      "Arctic Meltdown",
+      "Ocean Acidification"
+    ],
+    "answer": "Arctic Meltdown"
+  },
+  {
+    "id": 79,
+    "question": "What is the term for the maximum sustainable yield that an ecosystem can produce over time?",
+    "choices": [
+      "Ecological Capacity",
+      "Biocapacity",
+      "Carrying Capacity",
+      "Biodiversity"
+    ],
+    "answer": "Biocapacity"
+  },
+  {
+    "id": 80,
+    "question": "What term refers to the conversion of barren or agricultural land into a forest?",
+    "choices": [
+      "Deforestation",
+      "Afforestation",
+      "Reforestation",
+      "Desertification"
+    ],
+    "answer": "Afforestation"
+  },
+  {
+    "id": 81,
+    "question": "Which layer of the atmosphere lies directly above the troposphere?",
+    "choices": ["Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+    "answer": "Stratosphere"
+  },
+  {
+    "id": 82,
+    "question": "What is the process by which organisms break down organic material into simpler substances?",
+    "choices": [
+      "Photosynthesis",
+      "Decomposition",
+      "Fermentation",
+      "Respiration"
+    ],
+    "answer": "Decomposition"
+  },
+  {
+    "id": 83,
+    "question": "Which renewable energy source is derived directly from organic matter, such as plants and animal waste?",
+    "choices": ["Solar Energy", "Wind Energy", "Biomass Energy", "Hydropower"],
+    "answer": "Biomass Energy"
+  },
+  {
+    "id": 84,
+    "question": "What term describes the area where a freshwater stream or river merges with the ocean?",
+    "choices": ["Estuary", "Delta", "Wetland", "Lagoon"],
+    "answer": "Estuary"
+  },
+  {
+    "id": 85,
+    "question": "What phenomenon leads to decreased fish populations due to changes in water temperature and chemistry?",
+    "choices": [
+      "Overfishing",
+      "Coral Bleaching",
+      "Ocean Acidification",
+      "Eutrophication"
+    ],
+    "answer": "Ocean Acidification"
+  },
+  {
+    "id": 86,
+    "question": "Which type of renewable energy involves using Earth's internal heat?",
+    "choices": [
+      "Solar Energy",
+      "Wind Energy",
+      "Geothermal Energy",
+      "Hydropower"
+    ],
+    "answer": "Geothermal Energy"
+  },
+  {
+    "id": 87,
+    "question": "What is the process by which plants absorb sunlight and carbon dioxide to create food and oxygen?",
+    "choices": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Fermentation"
+    ],
+    "answer": "Photosynthesis"
+  },
+  {
+    "id": 88,
+    "question": "What is the primary cause of urban heat islands?",
+    "choices": [
+      "Deforestation",
+      "Industrial Pollution",
+      "Increased Vehicle Use",
+      "Concentration of Buildings and Pavement"
+    ],
+    "answer": "Concentration of Buildings and Pavement"
+  },
+  {
+    "id": 89,
+    "question": "Which form of waste management involves converting organic waste into soil conditioner?",
+    "choices": ["Recycling", "Landfilling", "Composting", "Incineration"],
+    "answer": "Composting"
+  },
+  {
+    "id": 90,
+    "question": "What is the primary effect of eutrophication in aquatic ecosystems?",
+    "choices": [
+      "Increased Water Clarity",
+      "Decreased Biodiversity",
+      "Increased Fish Populations",
+      "Oxygen Depletion"
+    ],
+    "answer": "Oxygen Depletion"
+  },
+  {
+    "id": 91,
+    "question": "Which type of energy relies on capturing heat from within the Earth?",
+    "choices": [
+      "Solar Energy",
+      "Wind Energy",
+      "Nuclear Energy",
+      "Geothermal Energy"
+    ],
+    "answer": "Geothermal Energy"
+  },
+  {
+    "id": 92,
+    "question": "What is the term for the area where an ocean meets the land?",
+    "choices": ["Coastline", "Continental Shelf", "Coral Reef", "Estuary"],
+    "answer": "Coastline"
+  },
+  {
+    "id": 93,
+    "question": "What process is primarily responsible for the formation of fossil fuels?",
+    "choices": [
+      "Photosynthesis",
+      "Carbon Sequestration",
+      "Decomposition",
+      "Sedimentation"
+    ],
+    "answer": "Sedimentation"
+  },
+  {
+    "id": 94,
+    "question": "Which phenomenon occurs when the Earth's shadow falls on the Moon?",
+    "choices": ["Solar Eclipse", "Lunar Eclipse", "Equinox", "Solstice"],
+    "answer": "Lunar Eclipse"
+  },
+  {
+    "id": 95,
+    "question": "What is the process by which green plants use sunlight to synthesize foods?",
+    "choices": [
+      "Photosynthesis",
+      "Respiration",
+      "Decomposition",
+      "Fermentation"
+    ],
+    "answer": "Photosynthesis"
+  },
+  {
+    "id": 96,
+    "question": "What term refers to the deliberate modification of Earth's environment through the addition or removal of species?",
+    "choices": [
+      "Biodiversity",
+      "Ecology",
+      "Conservation",
+      "Ecosystem Engineering"
+    ],
+    "answer": "Ecosystem Engineering"
+  },
+  {
+    "id": 97,
+    "question": "What is the term for the practice of growing crops and raising livestock for human use and consumption?",
+    "choices": ["Horticulture", "Agriculture", "Aquaculture", "Silviculture"],
+    "answer": "Agriculture"
+  },
+  {
+    "id": 98,
+    "question": "Which term describes the movement of water through the Earth's hydrosphere?",
+    "choices": [
+      "Carbon Cycle",
+      "Nitrogen Cycle",
+      "Water Cycle",
+      "Oxygen Cycle"
+    ],
+    "answer": "Water Cycle"
+  },
+  {
+    "id": 99,
+    "question": "What phenomenon refers to the regular rise and fall of ocean levels?",
+    "choices": ["Ocean Currents", "Tides", "El Niño", "Thermal Expansion"],
+    "answer": "Tides"
+  },
+  {
+    "id": 100,
+    "question": "What is the primary cause of soil salinization?",
+    "choices": [
+      "Overgrazing",
+      "Deforestation",
+      "Excessive Irrigation",
+      "Industrial Pollution"
+    ],
+    "answer": "Excessive Irrigation"
   }
 ]

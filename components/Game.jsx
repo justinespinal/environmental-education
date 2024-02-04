@@ -3,14 +3,18 @@ import "./Game.css";
 
 const Game = ({ questions, updateScores }) => {
   const [currentQuestionIndex, setQuestionIndex] = useState(0);
-  const [currentScore, setScore] = useState("");
+  const [currentScore, setScore] = useState(0);
 
   const currentQuestion = questions[currentQuestionIndex];
 
   const handleAnswer = (selected) => {
     if (selected === currentQuestion.answer) {
       const newScore = currentScore + 1;
-      setCurrentScore(newScore);
+      setScore(newScore);
+      updateScores(newScore);
+    } else {
+      const newScore = 0;
+      setScore(newScore);
       updateScores(newScore);
     }
 

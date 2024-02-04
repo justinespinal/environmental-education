@@ -9,6 +9,7 @@ import Game from "../components/Game";
 
 const Home = ({ username, loggedIn, setLoggedIn }) => {
   const [userData, setUserData] = useState(null);
+  const [currentScore, setCurrentScore] = useState(0);
   const Navigate = useNavigate();
 
   useEffect(() => {
@@ -29,6 +30,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
   };
 
   const updateScores = (currentScore) => {
+    setCurrentScore(currentScore);
     let updatedData = {
       ...userData,
       highScore: Math.max(userData.highScore, currentScore),
@@ -126,7 +128,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
             <div className="classRow">
               <div className="pointDisplay">
                 <img src="../img/score.svg"></img>
-                <h2>Current Score: 0</h2>
+                <h2>Current Score: {currentScore}</h2>
               </div>
               <div className="pointDisplay">
                 <img className="highScoreIcon" src="../img/icon.svg"></img>

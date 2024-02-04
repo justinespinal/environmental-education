@@ -243,3 +243,10 @@ footer {
   align-items: center;
   gap: 8%;
 }
+
+.top5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

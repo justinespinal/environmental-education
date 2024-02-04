@@ -173,23 +173,15 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
 
           <div className="leaderboard">
             <h2>Leaderboard</h2>
-            <div>
+            <div className="top5">
               <Leaderboard index={0} leaderboard={leaderboard} />
-            </div>
 
-            <div>
               <Leaderboard index={1} leaderboard={leaderboard} />
-            </div>
 
-            <div>
               <Leaderboard index={2} leaderboard={leaderboard} />
-            </div>
 
-            <div>
               <Leaderboard index={3} leaderboard={leaderboard} />
-            </div>
 
-            <div>
               <Leaderboard index={4} leaderboard={leaderboard} />
             </div>
           </div>

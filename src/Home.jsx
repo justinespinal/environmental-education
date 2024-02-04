@@ -172,7 +172,10 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           <Game questions={quizQuestions} updateScores={updateScores} />
 
           <div className="leaderboard">
-            <h2>Leaderboard</h2>
+            <div className="leaderboard-header">
+              <img src="../img/leaderboard.svg" alt="" />
+              <h2>LEADERBOARD</h2>
+            </div>
             <div>
               <Leaderboard index={0} leaderboard={leaderboard} />
             </div>

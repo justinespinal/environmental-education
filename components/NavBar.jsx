@@ -13,7 +13,7 @@ function NavBar() {
         </div>
         <ul className="navbar-list">
           <li>
-            <a href="#">HOW TO PLAY</a>
+            <a href="#play">HOW TO PLAY</a>
           </li>
           <li>
             <a href="#">MY SCORE</a>

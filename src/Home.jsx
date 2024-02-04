@@ -66,7 +66,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
 
       <div className="gameTitle">
         <h4 style={{ color: "#79C585" }}>THE GAME</h4>
-        <h2>HOW TO PLAY</h2>
+        <h2 id="play">HOW TO PLAY</h2>
       </div>
 
       <div className="GameInfo">

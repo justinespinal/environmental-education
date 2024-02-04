@@ -9,6 +9,7 @@ h1 {
   padding: 10px;
   font-size: 30px;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .loginPage {
@@ -155,6 +156,10 @@ h1 {
   border-radius: 40px;
 }
 
+.GameDesc h3 {
+  font-weight: bold;
+}
+
 .GameImg {
   display: flex;
   flex-direction: row;
@@ -208,6 +213,7 @@ h1 {
   width: 50%;
   justify-content: center;
   align-items: center;
+  background-color: #edf4f3;
 }
 
 .highScoreIcon {

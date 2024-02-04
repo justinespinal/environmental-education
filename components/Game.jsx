@@ -28,7 +28,7 @@ const Game = ({ questions, updateScores }) => {
   return (
     <div>
       <div className="quiz-container">
-        <h1>{currentQuestion.question}</h1>
+        <h1 className="quiz-question">{currentQuestion.question}</h1>
         <div className="choice-grid">
           {currentQuestion.choices.map((choice, index) => (
             <button

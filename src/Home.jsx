@@ -10,7 +10,13 @@ import Game from "../components/Game";
 const Home = ({ username, loggedIn, setLoggedIn }) => {
   const [userData, setUserData] = useState(null);
   const [currentScore, setCurrentScore] = useState(0);
+  const [leaderboard, setLeaderboard] = useState([]); // [username, score
   const Navigate = useNavigate();
+
+  useEffect(() => {
+    const leaderBoard = getLeaderboard();
+    setLeaderboard(leaderBoard);
+  }, [loggedIn]);
 
   useEffect(() => {
     if (loggedIn) {
@@ -27,6 +33,23 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
     } else {
       Navigate("/login");
     }
+  };
+
+  const getLeaderboard = () => {
+    let leaderboard = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      try {
+        let key = localStorage.key(i);
+        const data = JSON.parse(localStorage.getItem(key));
+        if (data && data.highScore !== undefined) {
+          leaderboard.push({ username: key, score: data.highScore });
+        }
+      } catch (e) {
+        console.log("Error parsing JSON", e);
+      }
+    }
+
+    return leaderboard.sort((a, b) => b.score - a.score).slice(0, 10);
   };
 
   const updateScores = (currentScore) => {
@@ -104,7 +127,9 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           {loggedIn ? (
             <div></div>
           ) : (
-            <button className="GameLogin">Login</button>
+            <button className="GameLogin" onClick={onButtonClick}>
+              Login
+            </button>
           )}
         </div>
         <div className="GameDesc">
@@ -141,6 +166,17 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
             </div>
           </div>
           <Game questions={quizQuestions} updateScores={updateScores} />
+
+          <div className="leaderboard">
+            <h2>Leaderboard</h2>
+            <ol>
+              {leaderboard.map((entry, index) => (
+                <li key={index}>
+                  {index + 1}. {entry.username} - {entry.score}
+                </li>
+              ))}
+            </ol>
+          </div>
         </div>
       ) : (
         <div></div>

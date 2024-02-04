@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main gas responsible for the greenhouse effect?",
+    "choices": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Methane"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "id": 2,
+    "question": "What percentage of the Earth's surface is covered by oceans?",
+    "choices": ["About 50%", "About 71%", "About 60%", "About 80%"],
+    "answer": "About 71%"
+  },
+  {
+    "id": 3,
+    "question": "Which layer of Earth's atmosphere contains the ozone layer?",
+    "choices": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+    "answer": "Stratosphere"
+  },
+  {
+    "id": 4,
+    "question": "What is the process plants use to convert sunlight into food?",
+    "choices": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Fermentation"
+    ],
+    "answer": "Photosynthesis"
+  },
+  {
+    "id": 5,
+    "question": "What is the largest source of renewable energy in the world?",
+    "choices": [
+      "Solar Energy",
+      "Wind Energy",
+      "Hydropower",
+      "Geothermal Energy"
+    ],
+    "answer": "Hydropower"
+  },
+  {
+    "id": 6,
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "choices": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
+    "answer": "Nitrogen"
+  },
+  {
+    "id": 7,
+    "question": "What type of energy is produced by the sun?",
+    "choices": [
+      "Thermal Energy",
+      "Nuclear Energy",
+      "Solar Energy",
+      "Radiant Energy"
+    ],
+    "answer": "Solar Energy"
+  },
+  {
+    "id": 8,
+    "question": "Which country produces the most wind energy?",
+    "choices": ["United States", "China", "Germany", "India"],
+    "answer": "China"
+  },
+  {
+    "id": 9,
+    "question": "What is the primary cause of global warming?",
+    "choices": [
+      "Natural Sun Cycles",
+      "Deforestation",
+      "Greenhouse Gases",
+      "Volcanic Eruptions"
+    ],
+    "answer": "Greenhouse Gases"
+  },
+  {
+    "id": 10,
+    "question": "Which gas is released during the burning of fossil fuels?",
+    "choices": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Helium"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "id": 11,
+    "question": "What does the term 'biodiversity' refer to?",
+    "choices": [
+      "Variety of food crops",
+      "Different climates on Earth",
+      "Variety of life on Earth",
+      "Variety of water bodies"
+    ],
+    "answer": "Variety of life on Earth"
+  },
+  {
+    "id": 12,
+    "question": "What is the main cause of the depletion of the ozone layer?",
+    "choices": [
+      "Greenhouse Gases",
+      "Chlorofluorocarbons",
+      "Carbon Monoxide",
+      "Methane"
+    ],
+    "answer": "Chlorofluorocarbons"
+  },
+  {
+    "id": 13,
+    "question": "Which is not a renewable resource?",
+    "choices": ["Solar energy", "Wind energy", "Coal", "Hydropower"],
+    "answer": "Coal"
+  },
+  {
+    "id": 14,
+    "question": "What is the most common form of waste found in oceans?",
+    "choices": ["Plastic", "Glass", "Metal", "Rubber"],
+    "answer": "Plastic"
+  },
+  {
+    "id": 15,
+    "question": "What is deforestation?",
+    "choices": [
+      "Planting more trees",
+      "Clearing of forests",
+      "Urbanization",
+      "Desertification"
+    ],
+    "answer": "Clearing of forests"
+  },
+  {
+    "id": 16,
+    "question": "Which renewable energy source uses the Earth's heat?",
+    "choices": [
+      "Solar Energy",
+      "Wind Energy",
+      "Geothermal Energy",
+      "Hydropower"
+    ],
+    "answer": "Geothermal Energy"
+  },
+  {
+    "id": 17,
+    "question": "What percentage of the world's water is fresh and readily accessible?",
+    "choices": ["Less than 1%", "About 10%", "About 3%", "About 20%"],
+    "answer": "Less than 1%"
+  },
+  {
+    "id": 18,
+    "question": "What is the primary gas found in natural gas?",
+    "choices": ["Carbon Dioxide", "Methane", "Nitrogen", "Oxygen"],
+    "answer": "Methane"
+  },
+  {
+    "id": 19,
+    "question": "What term describes the variety of habitats, species, and genes in an ecosystem?",
+    "choices": ["Ecology", "Biodiversity", "Ecosystem", "Biome"],
+    "answer": "Biodiversity"
+  }
+]

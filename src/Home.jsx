@@ -127,7 +127,11 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           </div>
           <h3>Log in before playing to track your progress!</h3>
           {loggedIn ? (
-            <div></div>
+            <div>
+              <button className="GameLogin" onClick={onButtonClick}>
+                Log out
+              </button>
+            </div>
           ) : (
             <button className="GameLogin" onClick={onButtonClick}>
               Login

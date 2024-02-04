@@ -92,6 +92,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       </div>
 
       <div className="Info">
+        <br />
         <h3 style={{ color: "#79C585" }}>WHY CLIMATE?</h3>
         <h1>THE IMPORTANCE</h1>
         <div className="purp">

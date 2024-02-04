@@ -4,6 +4,7 @@ import "./App.css";
 import InfoCard from "../components/InfoCard";
 import NavBar from "../components/NavBar";
 
+import quizQuestions from "./quizQuestions.json";
 import Game from "../components/Game";
 
 const Home = ({ username, loggedIn, setLoggedIn }) => {
@@ -120,7 +121,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
             <h2>High Score: {userData ? userData.highScore : 0}</h2>
           </div>
 
-          <Game />
+          <Game questions={quizQuestions} />
         </div>
       ) : (
         <div></div>

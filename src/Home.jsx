@@ -82,11 +82,11 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         </div>
         <div className="buttonContainer">
           <input
-            style={({ color: "black" }, { backgroundColor: "white" })}
+            style={{ color: "black", backgroundColor: "white" }}
             className="inputB"
             type="button"
             onClick={onButtonClick}
-            value={loggedIn ? "Log out" : "Get Started"}
+            value={loggedIn ? "Logout" : "Get Started"}
           />
         </div>
       </div>
@@ -123,12 +123,12 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         <div className="GameDesc">
           <div className="GameImg">
             <img src="../img/profile.svg"></img>
-            {loggedIn ? <h2>LOG OUT</h2> : <h2>LOG IN</h2>}
+            {loggedIn ? <h2>LOGOUT</h2> : <h2>LOGIN</h2>}
           </div>
           <h3>Log in before playing to track your progress!</h3>
           {loggedIn ? (
             <button className="GameLogin" onClick={onButtonClick}>
-              Log out
+              Logout
             </button>
           ) : (
             <button className="GameLogin" onClick={onButtonClick}>

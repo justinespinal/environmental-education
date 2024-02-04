@@ -105,11 +105,17 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           <h3>Compete with friends and family!</h3>
         </div>
       </div>
-
+      <br />
       {loggedIn ? (
         <div className="Points">
-          <h2>Current Score: 0</h2>
-          <h2>High Score: {userData ? userData.highScore : 0}</h2>
+          <div className="pointDisplay">
+            <img></img>
+            <h2>Current Score: 0</h2>
+          </div>
+          <div className="pointDisplay">
+            <img src="../img/icon.svg"></img>
+            <h2>High Score: {userData ? userData.highScore : 0}</h2>
+          </div>
         </div>
       ) : (
         <div></div>

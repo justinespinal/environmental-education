@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
 import InfoCard from "../components/InfoCard";
 import NavBar from "../components/NavBar";
 
 const Home = ({ username, loggedIn, setLoggedIn }) => {
+  const [userData, setUserData] = useState(null);
   const Navigate = useNavigate();
+
+  useEffect(() => {
+    if (loggedIn) {
+      const storedData = localStorage.getItem(username);
+      if (storedData) {
+        setUserData(JSON.parse(storedData));
+      }
+    }
+  }, [username, loggedIn]);
 
   const onButtonClick = () => {
     if (loggedIn) {
@@ -96,6 +106,21 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           <h3>Compete with friends and family!</h3>
         </div>
       </div>
+      <br />
+      {loggedIn ? (
+        <div className="Points">
+          <div className="pointDisplay">
+            <img></img>
+            <h2>Current Score: 0</h2>
+          </div>
+          <div className="pointDisplay">
+            <img src="../img/icon.svg"></img>
+            <h2>High Score: {userData ? userData.highScore : 0}</h2>
+          </div>
+        </div>
+      ) : (
+        <div></div>
+      )}
     </>
   );
 };

@@ -88,7 +88,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 .Info {
@@ -97,6 +97,10 @@ h1 {
   align-items: center;
   justify-content: center;
   color: black;
+}
+
+.Info h1 {
+  font-size: 1.8em;
 }
 
 .InfoCard {
@@ -128,6 +132,8 @@ h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  color: #1e1e1e;
+  font-size: 1.3em;
 }
 
 .GameInfo {
@@ -145,6 +151,8 @@ h1 {
   height: 40vh;
   justify-content: space-around;
   align-items: center;
+  background-color: #edf4f3;
+  border-radius: 40px;
 }
 
 .GameImg {

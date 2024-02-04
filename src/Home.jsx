@@ -7,6 +7,17 @@ import NavBar from "../components/NavBar";
 import quizQuestions from "./quizQuestions.json";
 import Game from "../components/Game";
 import Leaderboard from "../components/Leaderboard";
+import green from "../img/green.svg";
+import water from "../img/water.svg";
+import profile from "../img/profile.svg";
+import controller from "../img/controller.svg";
+import fumes from "../img/fumes.svg";
+import fire from "../img/fire.svg";
+import leader from "../img/leader.svg";
+import leaderboardImg from "../img/leaderboard.svg";
+import score from "../img/score.svg";
+import footerLogo from "../img/logo.svg";
+import icon from "../img/icon.svg";
 
 const Home = ({ username, loggedIn, setLoggedIn }) => {
   const [userData, setUserData] = useState(null);
@@ -69,7 +80,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       <div
         className="homeDiv"
         style={{
-          backgroundImage: `url("../img/green.svg")`,
+          backgroundImage: `url(${green})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           height: "100vh",
@@ -97,17 +108,18 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         <h1>THE IMPORTANCE</h1>
         <div className="purp">
           <InfoCard
-            src="../img/water.svg"
+            src={water}
             purp="The global average sea level is rising at a rate exceeding 4 millimeters per 
             year"
           />
+
           <InfoCard
-            src="../img/fumes.svg"
+            src={fumes}
             purp="The world emits around 52.4 billion metric tons of CO2 per year, contributing 
             to climate change"
           />
           <InfoCard
-            src="../img/fire.svg"
+            src={fire}
             purp="The world lost an average of 10.1 million hectares (25 million acres) of 
             forest annually between 2015 and 2020."
           />
@@ -122,7 +134,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       <div className="GameInfo">
         <div className="GameDesc">
           <div className="GameImg">
-            <img src="../img/profile.svg"></img>
+            <img src={profile}></img>
             {loggedIn ? <h2>LOGOUT</h2> : <h2>LOGIN</h2>}
           </div>
           <h3>Log in before playing to track your progress!</h3>
@@ -138,7 +150,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         </div>
         <div className="GameDesc">
           <div className="GameImg">
-            <img src="../img/controller.svg"></img>
+            <img src={controller}></img>
             <h2>GAMEPLAY</h2>
           </div>
           <h3>
@@ -148,7 +160,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         </div>
         <div className="GameDesc">
           <div className="GameImg">
-            <img src="../img/leader.svg"></img>
+            <img src={leader}></img>
             <h2>LEADERBOARD</h2>
           </div>
           <h3>Compete with friends and family!</h3>
@@ -160,11 +172,11 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           <div className="Points">
             <div className="classRow">
               <div className="pointDisplay" id="score">
-                <img src="../img/score.svg"></img>
+                <img src={score}></img>
                 <h2>Current Score: {currentScore}</h2>
               </div>
               <div className="pointDisplay">
-                <img className="highScoreIcon" src="../img/icon.svg"></img>
+                <img className="highScoreIcon" src={icon}></img>
                 <h2>High Score: {userData ? userData.highScore : 0}</h2>
               </div>
             </div>
@@ -173,7 +185,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
 
           <div className="leaderboard">
             <div className="leaderboard-header">
-              <img src="../img/leaderboard.svg" alt="" />
+              <img src={leaderboardImg} alt="" />
               <h2>LEADERBOARD</h2>
             </div>
 
@@ -195,7 +207,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       )}
       <footer>
         <div className="footer-1">
-          <img src="../img/logo.svg" alt="" />
+          <img src={footerLogo} alt="" />
           <p>GreenIQ</p>
         </div>
         <p>Made by Justin Espinal, Ye Htut Maung, Steven Uy, Dennis Do</p>

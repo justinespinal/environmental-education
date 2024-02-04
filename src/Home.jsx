@@ -59,8 +59,8 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       highScore: Math.max(userData.highScore, currentScore),
     };
     setUserData(updatedData);
-
     localStorage.setItem(username, JSON.stringify(updatedData));
+    setLeaderboard(getLeaderboard());
   };
 
   return (

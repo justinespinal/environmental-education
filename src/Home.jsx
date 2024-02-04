@@ -72,7 +72,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           backgroundImage: `url("../img/green.svg")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          height: "95vh",
+          height: "100vh",
         }}
       >
         <NavBar />

@@ -101,7 +101,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
             <h2>LOG IN</h2>
           </div>
           <h3>Log in before playing to track your progress!</h3>
-          <button>Login</button>
+          <button className="GameLogin">Login</button>
         </div>
         <div className="GameDesc">
           <div className="GameImg">

@@ -20,8 +20,8 @@ function Login({ setLoggedIn, setUser }) {
       return;
     }
 
-    if (username.length < 8) {
-      setUserError("Invalid username");
+    if (username.length < 4) {
+      setUserError("Username must be at least 4 characters");
       return;
     }
 

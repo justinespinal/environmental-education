@@ -216,6 +216,18 @@ h1 {
   background-color: #edf4f3;
 }
 
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0 auto;
+  height: 50vh;
+  width: 80%;
+
+  gap: 5%;
+}
+
 .leaderboard-header {
   display: flex;
   align-items: flex-end;
@@ -224,7 +236,7 @@ h1 {
   border-radius: 50px;
   justify-content: center;
   padding: 0.5%;
-  width: 80%;
+  width: 40%;
 }
 
 .highScoreIcon {
@@ -256,8 +268,11 @@ footer {
 }
 
 .top5 {
+  font-size: 1.4em;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 5%;
 }

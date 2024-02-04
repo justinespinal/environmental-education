@@ -177,7 +177,6 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
               <h2>LEADERBOARD</h2>
             </div>
 
-            <h2>Leaderboard</h2>
             <div className="top5">
               <Leaderboard index={0} leaderboard={leaderboard} />
 

@@ -28,6 +28,16 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
     }
   };
 
+  const updateScores = (currentScore) => {
+    let updatedData = {
+      ...userData,
+      highScore: Math.max(userData.highScore, currentScore),
+    };
+    setUserData(updatedData);
+
+    localStorage.setItem(username, JSON.stringify(updatedData));
+  };
+
   return (
     <>
       <div
@@ -124,7 +134,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
               </div>
             </div>
           </div>
-          <Game questions={quizQuestions} />
+          <Game questions={quizQuestions} updateScores={updateScores} />
         </div>
       ) : (
         <div></div>

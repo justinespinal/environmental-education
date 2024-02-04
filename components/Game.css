@@ -12,6 +12,7 @@
 
 .choice-btn {
   font-size: 50px;
+  width: 100%;
   padding: 10px;
   background-color: lightblue;
   border: none;

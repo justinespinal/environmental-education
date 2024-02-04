@@ -4,6 +4,8 @@ import "./App.css";
 import InfoCard from "../components/InfoCard";
 import NavBar from "../components/NavBar";
 
+import Game from "../components/Game";
+
 const Home = ({ username, loggedIn, setLoggedIn }) => {
   const [userData, setUserData] = useState(null);
   const Navigate = useNavigate();
@@ -116,6 +118,8 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
             <img src="../img/icon.svg"></img>
             <h2>High Score: {userData ? userData.highScore : 0}</h2>
           </div>
+
+          <Game />
         </div>
       ) : (
         <div></div>

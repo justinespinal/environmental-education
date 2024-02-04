@@ -60,7 +60,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         <div className="purp">
           <InfoCard
             src="../img/water.svg"
-            purp=" The global average sea level is rising at a rate exceeding 4 millimeters per 
+            purp="The global average sea level is rising at a rate exceeding 4 millimeters per 
             year"
           />
           <InfoCard
@@ -88,6 +88,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
             <h2>LOG IN</h2>
           </div>
           <h3>Log in before playing to track your progress!</h3>
+          <button>Login</button>
         </div>
         <div className="GameDesc">
           <div className="GameImg">
@@ -111,11 +112,11 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       {loggedIn ? (
         <div className="Points">
           <div className="pointDisplay">
-            <img></img>
+            <img src="../img/score.svg"></img>
             <h2>Current Score: 0</h2>
           </div>
           <div className="pointDisplay">
-            <img src="../img/icon.svg"></img>
+            <img className="highScoreIcon" src="../img/icon.svg"></img>
             <h2>High Score: {userData ? userData.highScore : 0}</h2>
           </div>
 

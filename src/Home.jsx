@@ -72,18 +72,24 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
             <img src="../img/profile.svg"></img>
             <h2>LOG IN</h2>
           </div>
+          <h3>Log in before playing to track your progress!</h3>
         </div>
         <div className="GameDesc">
           <div className="GameImg">
             <img src="../img/controller.svg"></img>
             <h2>GAMEPLAY</h2>
           </div>
+          <h3>
+            Based on the question presented by the flashcard, select the correct
+            answer
+          </h3>
         </div>
         <div className="GameDesc">
           <div className="GameImg">
             <img src="../img/leader.svg"></img>
             <h2>LEADERBOARD</h2>
           </div>
+          <h3>Compete with friends and family!</h3>
         </div>
       </div>
     </>

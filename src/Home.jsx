@@ -111,16 +111,19 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
       </div>
       <br />
       {loggedIn ? (
-        <div className="Points">
-          <div className="pointDisplay">
-            <img src="../img/score.svg"></img>
-            <h2>Current Score: 0</h2>
+        <div>
+          <div className="Points">
+            <div className="classRow">
+              <div className="pointDisplay">
+                <img src="../img/score.svg"></img>
+                <h2>Current Score: 0</h2>
+              </div>
+              <div className="pointDisplay">
+                <img className="highScoreIcon" src="../img/icon.svg"></img>
+                <h2>High Score: {userData ? userData.highScore : 0}</h2>
+              </div>
+            </div>
           </div>
-          <div className="pointDisplay">
-            <img className="highScoreIcon" src="../img/icon.svg"></img>
-            <h2>High Score: {userData ? userData.highScore : 0}</h2>
-          </div>
-
           <Game questions={quizQuestions} />
         </div>
       ) : (

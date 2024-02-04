@@ -150,9 +150,14 @@ h1 {
 
 .Points {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.classRow {
+  display: flex;
+  flex-direction: row;
 }
 
 .pointDisplay {

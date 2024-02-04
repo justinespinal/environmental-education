@@ -105,17 +105,23 @@ h1 {
   align-items: center;
   justify-content: center;
   color: black;
-  background-color: #f9f9f9;
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
   font-size: 20px;
   text-align: center;
+  width: 30%;
+  height: 60vh;
+}
+
+.InfoCard img {
+  width: 90%;
 }
 
 .purp {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+  width: 100%;
 }
 
 .gameTitle {

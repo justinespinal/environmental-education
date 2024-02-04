@@ -135,17 +135,22 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  text-align: center;
 }
 
 .GameDesc {
   display: flex;
   flex-direction: column;
+  width: 30%;
+  height: 40vh;
+  justify-content: space-around;
 }
 
 .GameImg {
   display: flex;
   flex-direction: row;
   font-size: 10px;
+  justify-content: center;
 }
 
 .Points {

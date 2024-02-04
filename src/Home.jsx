@@ -38,10 +38,14 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
   const getLeaderboard = () => {
     let leaderboard = [];
     for (let i = 0; i < localStorage.length; i++) {
-      let key = localStorage.key(i);
-      const data = JSON.parse(localStorage.getItem(key));
-      if (data && data.highScore !== undefined) {
-        leaderboard.push({ username: key, score: data.highScore });
+      try {
+        let key = localStorage.key(i);
+        const data = JSON.parse(localStorage.getItem(key));
+        if (data && data.highScore !== undefined) {
+          leaderboard.push({ username: key, score: data.highScore });
+        }
+      } catch (e) {
+        console.log("Error parsing JSON", e);
       }
     }
 

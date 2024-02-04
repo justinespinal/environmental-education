@@ -7,7 +7,7 @@ const Game = ({ questions, updateScores }) => {
   );
   const [currentScore, setScore] = useState(0);
 
-  const colors = ["red", "blue", "green", "yellow"];
+  const colors = ["red", "blue", "green", "#FCBF26"];
 
   const currentQuestion = questions[currentQuestionIndex];
 

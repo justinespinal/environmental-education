@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  max-width: 400px;
+  min-width: 80%;
   margin: 20px auto;
 }
 
@@ -19,7 +19,7 @@
   font-size: 50px;
   width: 100%;
   padding: 10px;
-  background-color: lightblue;
+  background-color: #edf4f3;
   border: none;
   cursor: pointer;
 }
@@ -31,4 +31,5 @@
   border-radius: 50px;
   font-size: 2.3em;
   padding: 1%;
+  background-color: #edf4f3;
 }

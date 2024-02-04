@@ -161,7 +161,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         <div>
           <div className="Points">
             <div className="classRow">
-              <div className="pointDisplay">
+              <div className="pointDisplay" id="score">
                 <img src="../img/score.svg"></img>
                 <h2>Current Score: {currentScore}</h2>
               </div>

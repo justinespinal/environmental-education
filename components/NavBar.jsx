@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./NavBar.css";
 import logo from "../img/logo.svg";
 
-function NavBar() {
+function NavBar({ loggedIn }) {
   return (
     <>
       <div className="navbar">
@@ -12,11 +12,9 @@ function NavBar() {
           <h1 className="navbar-heading">GreenIQ</h1>
         </div>
         <ul className="navbar-list">
+          <li>{loggedIn ? <a href="#">MY SCORE</a> : <div></div>}</li>
           <li>
             <a href="#play">HOW TO PLAY</a>
-          </li>
-          <li>
-            <a href="#">MY SCORE</a>
           </li>
         </ul>
       </div>

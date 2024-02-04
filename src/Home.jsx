@@ -75,7 +75,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           height: "95vh",
         }}
       >
-        <NavBar />
+        <NavBar loggedIn={loggedIn} />
         <div className="greenText">
           <h1>Unleash Your Eco-Wits</h1>
           <h3>Play Your Way to Greener World</h3>

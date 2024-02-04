@@ -2,15 +2,15 @@
   "name": "environmental-education",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://justinespinal.github.io/environmental-education/",
+  "homepage": "http://justinespinal.github.io/environmental-education/",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",

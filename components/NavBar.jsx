@@ -12,7 +12,7 @@ function NavBar({ loggedIn }) {
           <h1 className="navbar-heading">GreenIQ</h1>
         </div>
         <ul className="navbar-list">
-          <li>{loggedIn ? <a href="#">MY SCORE</a> : <div></div>}</li>
+          <li>{loggedIn ? <a href="#score">MY SCORE</a> : <div></div>}</li>
           <li>
             <a href="#play">HOW TO PLAY</a>
           </li>

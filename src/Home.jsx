@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
+import NavBar from "../components/NavBar";
 
 const Home = ({ username, loggedIn, setLoggedIn }) => {
   const Navigate = useNavigate();
@@ -24,6 +25,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
           height: "80vh",
         }}
       >
+        <NavBar />
         <div className="greenText">
           <h1>Unleash Your Eco-Wits</h1>
           <h3>Play Your Way to Greener World</h3>

@@ -6,6 +6,7 @@ import NavBar from "../components/NavBar";
 
 import quizQuestions from "./quizQuestions.json";
 import Game from "../components/Game";
+import Leaderboard from "../components/Leaderboard";
 
 const Home = ({ username, loggedIn, setLoggedIn }) => {
   const [userData, setUserData] = useState(null);
@@ -169,13 +170,25 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
 
           <div className="leaderboard">
             <h2>Leaderboard</h2>
-            <ol>
-              {leaderboard.map((entry, index) => (
-                <li key={index}>
-                  {index + 1}. {entry.username} - {entry.score}
-                </li>
-              ))}
-            </ol>
+            <div>
+              <Leaderboard index={0} leaderboard={leaderboard} />
+            </div>
+
+            <div>
+              <Leaderboard index={1} leaderboard={leaderboard} />
+            </div>
+
+            <div>
+              <Leaderboard index={2} leaderboard={leaderboard} />
+            </div>
+
+            <div>
+              <Leaderboard index={3} leaderboard={leaderboard} />
+            </div>
+
+            <div>
+              <Leaderboard index={4} leaderboard={leaderboard} />
+            </div>
           </div>
         </div>
       ) : (

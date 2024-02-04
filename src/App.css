@@ -141,3 +141,8 @@ h1 {
   flex-direction: row;
   font-size: 10px;
 }
+
+.Points {
+  display: flex;
+  flex-direction: row;
+}

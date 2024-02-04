@@ -123,7 +123,7 @@ const Home = ({ username, loggedIn, setLoggedIn }) => {
         <div className="GameDesc">
           <div className="GameImg">
             <img src="../img/profile.svg"></img>
-            <h2>LOG IN</h2>
+            {loggedIn ? <h2>LOG OUT</h2> : <h2>LOG IN</h2>}
           </div>
           <h3>Log in before playing to track your progress!</h3>
           {loggedIn ? (

@@ -228,6 +228,11 @@ h1 {
   gap: 5%;
 }
 
+.InfoImg:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .leaderboard-header {
   display: flex;
   align-items: flex-end;
